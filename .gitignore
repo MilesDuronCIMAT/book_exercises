@@ -3,3 +3,4 @@ chromedriver
 geckodriver
 __pycache__
 *.pyc
+virtualenv/

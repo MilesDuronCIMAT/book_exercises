@@ -43,7 +43,7 @@ class NewVisitorTest(LiveServerTestCase):
         # and now the page lists "1: Buy peacock feathers" as an item in a
         # to-do list table 
         inputbox.send_keys(Keys.ENTER)
-        eidth_list_url = self.browser.current_url
+        edith_list_url = self.browser.current_url
         self.assertRegex(edith_list_url, '/lists/.+')
         self.check_for_row_in_list_table('1: Buy peacock feathers')
         

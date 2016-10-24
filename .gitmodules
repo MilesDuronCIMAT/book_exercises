@@ -1,0 +1,3 @@
+[submodule "current_exercise"]
+	path = current_exercise
+	url = https://github.com/MilesDuronCIMAT/current_exercise.git
